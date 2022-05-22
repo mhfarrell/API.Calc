@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Calc", "API.Calc\API.Calc.csproj", "{38AFD1D4-604A-4126-9A46-FB09B1E0259F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Calc.Test", "API.Calc.Test\API.Calc.Test.csproj", "{F7950324-BC89-4669-A8AC-E1F035D8490E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{38AFD1D4-604A-4126-9A46-FB09B1E0259F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38AFD1D4-604A-4126-9A46-FB09B1E0259F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38AFD1D4-604A-4126-9A46-FB09B1E0259F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7950324-BC89-4669-A8AC-E1F035D8490E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7950324-BC89-4669-A8AC-E1F035D8490E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7950324-BC89-4669-A8AC-E1F035D8490E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7950324-BC89-4669-A8AC-E1F035D8490E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

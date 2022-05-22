@@ -25,3 +25,4 @@ D:\Drive Files\My Documents\GitHub\CalcAPI\API.Calc\API.Calc\obj\Debug\net6.0\re
 D:\Drive Files\My Documents\GitHub\CalcAPI\API.Calc\API.Calc\obj\Debug\net6.0\API.Calc.pdb
 D:\Drive Files\My Documents\GitHub\CalcAPI\API.Calc\API.Calc\obj\Debug\net6.0\API.Calc.genruntimeconfig.cache
 D:\Drive Files\My Documents\GitHub\CalcAPI\API.Calc\API.Calc\obj\Debug\net6.0\ref\API.Calc.dll
+D:\Drive Files\My Documents\GitHub\CalcAPI\API.Calc\API.Calc\bin\Debug\net6.0\Newtonsoft.Json.dll

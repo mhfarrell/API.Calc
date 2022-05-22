@@ -1,0 +1,10 @@
+
+*.dll
+*.manifest
+*.testlog
+.vs/API.Calc/v17/.suo
+*.v2
+*.pdb
+*.dll
+*.dll
+*.pdb

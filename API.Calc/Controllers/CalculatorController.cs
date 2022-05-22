@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using API.Calc.Mgr;
+using API.Calc.Model;
 
 namespace API.Calc.Controllers
 {
@@ -9,7 +10,7 @@ namespace API.Calc.Controllers
     {
         private readonly ILogger<CalculatorController> _logger;
 
-        private Calculate calcMgr = new Calculate();
+        private CalculateMgr calcMgr = new CalculateMgr();
 
         public CalculatorController(ILogger<CalculatorController> logger)
         {
@@ -17,27 +18,51 @@ namespace API.Calc.Controllers
         }
 
         [HttpGet]
-        public int Add(int value1, int value2)
+        public Calculator Add(int value1, int value2)
         {
-            return calcMgr.Add(value1, value2);
+            Calculator Addition = new Calculator
+            {
+                Value1 = value1,
+                Value2 = value2,
+                Result = calcMgr.Add(value1, value2)
+            };
+            return Addition;
         }
 
         [HttpGet]
-        public int Subtract(int value1, int value2)
+        public Calculator Subtract(int value1, int value2)
         {
-            return calcMgr.Subtract(value1, value2);
+            Calculator Subtraction = new Calculator
+            {
+                Value1 = value1,
+                Value2 = value2,
+                Result = calcMgr.Subtract(value1, value2)
+            };
+            return Subtraction;
         }
 
         [HttpGet]
-        public int Multiply(int value1, int value2)
+        public Calculator Multiply(int value1, int value2)
         {
-            return calcMgr.Multiply(value1, value2);
+            Calculator Multiplication = new Calculator
+            {
+                Value1 = value1,
+                Value2 = value2,
+                Result = calcMgr.Multiply(value1, value2)
+            };
+            return Multiplication;
         }
 
         [HttpGet]
-        public int Divide(int value1, int value2)
+        public Calculator Divide(int value1, int value2)
         {
-            return calcMgr.Divide(value1, value2);
+            Calculator Division = new Calculator
+            {
+                Value1 = value1,
+                Value2 = value2,
+                Result = calcMgr.Divide(value1, value2)
+            };
+            return Division;
         }
     }
 }
